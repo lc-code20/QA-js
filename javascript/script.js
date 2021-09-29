@@ -1,17 +1,29 @@
-console.log(":)")
+//conditionals
 
-const firstName = "L";
+//falsey
 
-const sureName = "C";
+let falseOne = 0;
+let falseTwo = ``;
+let falseThree;
+let falseFour = null;
+let falseFive = NaN;
+let falseSix = false;
 
-const from = "UK";
+//everything else is truthy
 
-const horoscope = "Scorpio";
+let age = 18;
 
-console.log(firstName);
-console.log(sureName);
-console.log(from);
-console.log(horoscope);
+//(age >= 18 && age <= 65)? console.log(`age is ${age}, between 18 and 65`) : console.log(`age is not between`);
 
-console.log("%c" + firstName, `color: orange; font: fantasy; font-weight: bold;
-    background-color: black; padding: 10px`)
+if(age >= 18 && age <= 65){
+    console.log(`age is ${age}, between 18 and 65`);
+} else if (age>18){
+    console.log("underage");
+} else{ ;
+    console.log(`age is ${age}, not between 18 and 65`);
+}
+
+let age2=50;
+
+(age2>50)? console.log("over 50"):console.log("under 50");
+
