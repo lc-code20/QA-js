@@ -13,5 +13,5 @@ console.log(sureName);
 console.log(from);
 console.log(horoscope);
 
-console.log("%c" + firstName, `color: orange; font: fantasy; weight: bold;
+console.log("%c" + firstName, `color: orange; font: fantasy; font-weight: bold;
     background-color: black; padding: 10px`)
