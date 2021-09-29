@@ -1,17 +1,76 @@
-console.log(":)")
+// flowchart 1
 
-const firstName = "L";
+let A = 100;
 
-const sureName = "C";
+while(A<200){
+    console.log(A);
+    A++;
+}
 
-const from = "UK";
+// flowchart 2
 
-const horoscope = "Scorpio";
+A = 100;
 
-console.log(firstName);
-console.log(sureName);
-console.log(from);
-console.log(horoscope);
+while(A<=200){
 
-console.log("%c" + firstName, `color: orange; font: fantasy; font-weight: bold;
-    background-color: black; padding: 10px`)
+    if(A%2 == 0){
+        console.log("-");
+    } else {
+        console.log("*");
+    }
+
+    A++;
+
+}
+
+
+// soln 2
+
+for(let i=1; i<11; i++){
+    
+    for(j=0; j<10; j++){
+        console.log(i)
+    }
+
+}
+
+//soln 3 - rewrite flowchart with for loops
+
+for(let i=100;i<201;i++){
+    console.log(i);
+}
+
+for(let i=100; i<=200; i++){
+    if(A%2 == 0){
+        console.log("-");
+    } else {
+        console.log("*");
+    }
+    A++;
+}
+
+let day = "Wednesday";
+switch (day) {
+    case "Monday":
+        console.log("Monday");
+    case "Tuesday":
+        console.log("Tuesday");
+    case "Wednesday":
+        console.log("Wednesday");
+    case "Thursday":
+        console.log("Thursday");
+    case "Friday":
+        console.log("Friday");
+        break;
+    case "Saturday":
+        console.log("Saturday");
+        break;
+    case "Sunday":
+        console.log("Sunday");
+        break;
+    default:
+        console.log("Invalid");
+        break;
+}
+
+//console.log(new Date().getDay());
