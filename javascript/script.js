@@ -1,17 +1,18 @@
-console.log(":)")
+let subtract = (num1, num2) => {
+    console.log(num1-num2);
+};
 
-const firstName = "L";
 
-const sureName = "C";
+let welcome = function(name, age){
+    console.log(`My name is ${name}, I am ${age} years old`);
+}
 
-const from = "UK";
+powerUp = (n1, n2) => {
+    console.log(Math.pow(n1, n2));
+}
 
-const horoscope = "Scorpio";
+subtract(52, 25);
 
-console.log(firstName);
-console.log(sureName);
-console.log(from);
-console.log(horoscope);
+welcome("a", 2);
 
-console.log("%c" + firstName, `color: orange; font: fantasy; font-weight: bold;
-    background-color: black; padding: 10px`)
+powerUp(2, 3);
