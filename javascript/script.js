@@ -17,7 +17,7 @@ let age = 18;
 
 if(age >= 18 && age <= 65){
     console.log(`age is ${age}, between 18 and 65`);
-} else if (age>18){
+} else if (age<18){
     console.log("underage");
 } else{ ;
     console.log(`age is ${age}, not between 18 and 65`);
