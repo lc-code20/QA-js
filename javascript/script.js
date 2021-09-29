@@ -1,17 +1,28 @@
-console.log(":)")
+//objects, arrays and json
 
-const firstName = "L";
+let vehicle = {
+    "type": "car"
+};
 
-const sureName = "C";
+vehicle.colour = "black";
 
-const from = "UK";
+// console.log(vehicle);
 
-const horoscope = "Scorpio";
+let myArray = [
+    "hello",
+    "everyone"
+];
 
-console.log(firstName);
-console.log(sureName);
-console.log(from);
-console.log(horoscope);
+console.log(myArray.length);
 
-console.log("%c" + firstName, `color: orange; font: fantasy; font-weight: bold;
-    background-color: black; padding: 10px`)
+myArray.push("1");
+myArray.push("2");
+myArray.push("3");
+
+console.log(myArray.length);
+
+myArray.shift();
+
+for (let i of myArray){
+    console.log(i);
+}
